@@ -1,6 +1,5 @@
-import { gsap } from "gsap";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import * as THREE from 'three'
+
+import * as THREE from './node_modules/three'
 import vertexShader from './shaders/vertex.glsl'
 import fragmentShader from './shaders/fragment.glsl'
 import MouseMeshInteraction from './three_mmi.js'
@@ -8,7 +7,7 @@ import MouseMeshInteraction from './three_mmi.js'
 import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
 import { Float32BufferAttribute, MOUSE } from 'three'
-gsap.registerPlugin(MotionPathPlugin);
+
 const scene = new THREE.Scene()
 const camera = new THREE.
 PerspectiveCamera(

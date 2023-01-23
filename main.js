@@ -6,7 +6,7 @@ import MouseMeshInteraction from './three_mmi.js'
 
 import atmosphereVertexShader from './shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './shaders/atmosphereFragment.glsl'
-import { Float32BufferAttribute, MOUSE } from 'three'
+import { Float32BufferAttribute, MOUSE } from './node_modules/three'
 
 const scene = new THREE.Scene()
 const camera = new THREE.
